@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorDialogWindowBg">#ffffffff</color>
+    <color name="colorDialogTrans">#00000000</color>
+    <color name="colorDialogViewBg">#00ffffff</color>
+    <color name="colorDialogTextColor">#ffffff</color>
+    <color name="colorDialogProgressBarColor">#ffffff</color>
+    <color name="colorDialogImageTintColor">#ffffff</color>
+
+    <color name="circleImageDark">#FF222222</color>
+    <color name="circleImageLight">#FFEEEEEE</color>
+
+
+</resources>

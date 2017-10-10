@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/dialog_window_background"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:id="@+id/dialog_view_bg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_centerInParent="true"
+		android:background="@drawable/progress_dialog_bg">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_centerInParent="true"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:paddingBottom="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="5dp">
+
+			<com.cryallen.androidlib.widgets.CircleImage.CircleImageView
+				android:id="@+id/dialog_circleImage"
+				android:layout_width="72dp"
+				android:layout_height="72dp"
+				android:layout_centerInParent="true"
+				android:src="@drawable/hugh"
+				app:civ_border_width="1dp"
+				app:civ_border_color="@color/circleImageLight" />
+
+			<com.cryallen.androidlib.widgets.DilatingDot.DilatingDotsProgressBar
+				android:id="@+id/dialog_dot_progressbar"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+				android:radius="5dp"
+				android:color="#8C2323"
+				app:dd_endColor="#208c2323"
+				app:dd_numDots="3"
+				app:dd_scaleMultiplier="1.5"
+				app:dd_animationDuration="500"
+				app:dd_horizontalSpacing="4dp"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+</RelativeLayout>
